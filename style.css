@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'Godo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+body{
+    font-family: 'Godo';
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+.header_inner{
+    width: 1320px;
+    height: 150px;
+    margin: 30px auto 0;
+    position: relative;
+    
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+}
+.header_inner ul{
+    position: absolute;
+    right: 150px;
+    top: 90px;
+}
+.header_inner ul li{
+    
+    float: left; 
+    padding-left: 30px;
+   
+}
+.header_inner a{
+    color: #333;
+    font-size: 20px;
+}
+.nav{
+    width: 1320px;
+    height: 74px;
+    margin: auto;
+
+}
+.nav> ul> li{
+    float: left;
+    width: 330px;
+    text-align: center;
+}
+
+.nav> ul> li> a{
+    font-size: 25px;
+    font-weight: bold;
+    color: #004080;
+    display: block;
+    padding: 30px 0 20px;
+}
+.nav>ul> li> a:hover, .nav>ul>.active> a{
+    color: palevioletred;
+    background: url(images/icon3.jpg)no-repeat 55px top;
+    background-size: 70px;
+}
+.sub{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: none;/*서브메뉴 안보이게 만들기*/
+    z-index: 99;
+  }
+.sub div{
+    width: 1320px;
+    height: 250px;
+    
+    margin: auto;
+  }
+.sub ul{
+    float: left;
+   width: 330px;
+    font-weight: bold;
+  }
+.sub ul li {
+      font-family: 'Godo';
+      font-size: 18px;
+      margin: 10px;
+      
+  }
+.sub ul li a:hover{
+      color: #004080;
+  }
+.sub a{
+      color: #78b3d1;
+  }
+
+ 
+.mainbanner{
+    background: url(images/mainb.jpg) no-repeat center top fixed;
+    height: 688px;
+    text-align: center;
+}
+.mainbanner h1{
+    font-family: 'Godo';
+    font-size: 80px;
+    color: #fff;
+    padding-top: 250px;
+}
+.mainbanner p{
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+}
+#content{
+    margin:20px auto;
+    text-align: center;
+}
+.content1{
+    width: 1320px;
+    height: 500px;
+    margin:  auto;  
+    margin-bottom: 70px;
+}
+h1{
+    font-family: 'NanumBarunGothic';
+    font-size: 50px;
+    color: #004080;
+    padding: 100px 0;
+}
+.content1 img{
+    float: left;
+    margin-left: 30px;
+}
+.p{
+    float: right;
+    font-size: 25px;
+    line-height: 50px;
+    padding-right: 300px;
+}
+.p2{
+    margin-top: 40px;
+}
+.content2{
+    width: 1320px;
+    height:1050px ;
+    margin: auto;
+    position: relative;
+}
+.content2 img{
+    display: inline-block;
+    margin-top: 280px;
+}
+.ps1{
+    width: 344px;
+    height: 271px;
+    background: url(images/ps1.png)no-repeat 250px;
+    padding-left: 250px;
+    position: absolute;
+    
+}
+h2{
+    font-size: 30px;
+    padding: 40px 0 20px 0;
+}
+.ps3 h2{
+    padding-right: 50px;
+}
+.ps3 p{
+    padding-right: 20px;
+}
+.ps4 h2{
+    padding-left: 30px;
+}
+.ps4 p{
+    padding-left: 30px;
+}
+.ps5 h2{
+    padding: 90px 20px 20px 0;
+   
+}
+.ps5 p{
+    padding-right: 30px;
+}
+.ps6 h2{
+    padding: 90px 20px 20px 0;
+}
+.ps6 p{
+    padding-right: 30px;
+}
+.content2 p{
+    font-size: 18px;
+}
+.ps2{
+    width: 344px;
+    height: 271px;
+    background: url(images/ps2.png)no-repeat ;
+    padding-right: 300px;
+    position: absolute;
+    left: 650px;
+}
+.ps3{
+    width: 370px;
+    height: 271px;
+    background: url(images/ps3.png)no-repeat ;
+    position: absolute;
+    left: -45px;
+    top: 470px;
+    padding-right: 30px;
+}
+.ps4{
+    width: 394px;
+    height: 271px;
+    background: url(images/ps4.png)no-repeat ;
+    position: absolute;
+    left: 930px;
+    top: 470px;
+}
+.ps5{
+    width: 370px;
+    height: 271px;
+    background: url(images/ps5.png)no-repeat ;
+    position: absolute;
+    left: 240px;
+    
+}
+.ps6{
+    width: 370px;
+    height: 271px;
+    background: url(images/ps6.png)no-repeat ;
+    position: absolute;
+    right: 275px;
+}
+
+
+
+
+.content3{
+    width: 1320px;
+    height: 800px;
+    margin: auto;
+}
+.content3 div{
+    width: 352px;
+    height: 352px;
+    background: url(images/one.png)no-repeat;
+    float: left;
+    margin: 0 40px 0 40px;
+}
+h3{
+    color: #666;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 120px;
+}
+.content3 .o{
+        padding-top: 140px;
+}
+.content3 p{
+    clear: both;
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 80px;
+    color: #666;
+}
+#footer{
+    background-color: #666;
+    margin-top: 70px;
+}
+.footer_inner{
+    width: 1320px;
+    height: 150px;
+    margin: auto;
+    padding-top: 20px;
+    color: #333;
+}
+.fl{
+    font-size: 30px;
+    color: #fff;
+    float: left;
+}
+
+.fr{
+    color: #fff;
+    float: right;
+}
+.fr span{
+    color: blue;
+}
+.footer_inner p{
+    clear: both;
+    padding-top: 20px;
+}
